@@ -14,8 +14,8 @@ let currentPlayer = 'X'
 let gameState = []
 let cols, rows, steps, counter = 0
 
-const winnMessage = () => `${currentPlayer} has won!`
-const nobodyWinsMessage = () => `it's a draw!`
+const winnMessage = () => `${currentPlayer} ganhou!`
+const nobodyWinsMessage = () => `deu velha!`
 
 // ----------------------------------  START GAME
 let checkInput = (input) => {
